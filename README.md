@@ -5,4 +5,4 @@ For this project the Wide and Deep architecture was recreated taking inspiration
 
 2. Wide Tower: The Wide Tower is a component of the Wide and Deep model that uses a single fully connected layer. This layer has the role of learning simple interactions that are less abstract, namely numerical attributes, compared to those learned by the deep tower. The broad component is actually a linear model, which computes a linear combination of the inputs. This means that each numerical input attribute is multiplied by a weight and all results are added together to produce a score. The purpose of this broad layer is to capture the importance of each feature on its own, as well as the simple interactions between features, which can be essential for accurate recommendations.
 
-The data used to train the recommander system to get restaurant recommandations based on user preferences (content-based filtering) was gathered from Trip Advisor, containing details about restaurants from Europe.
+The recommander system returns restaurants based on user preferences, which represents content-based filtering.
